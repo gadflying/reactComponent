@@ -1,0 +1,39 @@
+{
+  "name": "ReactComponent",
+  "version": "1.0.0",
+  "description": "react-component",
+  "main": "lib/index.js",
+  "author": {
+    "name": "joanna chen",
+    "url": "https://github.com/gadflying"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gadflying/ReactComponent.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gadflying/ReactComponent/issues"
+  },
+  "homepage": "https://github.com/gadflying/ReactComponent",
+  "dependencies": {},
+  "devDependencies": {
+    "electrode-archetype-react-component": "^1.0.0",
+    "electrode-archetype-react-component-dev": "^1.0.0",
+    "gulp": "^3.9.1"
+  },
+  "engines": {
+    "node": "^4.2.6",
+    "npm": "^3.5.3"
+  },
+  "scripts": {
+    "prepublish": "gulp prepublish",
+    "start": "gulp demo",
+    "test": "gulp check"
+  },
+  "keywords": [
+    "react",
+    "electrode",
+    "electrode-component",
+    "react-component"
+  ]
+}
